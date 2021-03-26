@@ -1,0 +1,26 @@
+Task
+
+- Stack : 햄버거 처럼 아래에서 위로 쌓이는 것
+          - Task가 쌓인다.
+
+
+켜지는 방법을 자체 속성으로 가지고 있는 경우
+-> launchMode
+
+켜지는 방법을 지시하는 경우
+-> IntentFalg
+
+launchMode
+- Standard          다중허용
+- singleTop         조건부 -> 열려고 하는 액티비티 라면 onNewIntent를 호출한다
+-----------------------------------
+- singleTsk           X
+- SingleInstance      X
+
+인텐트 플레그 //
+FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_SINGLE_TASK
+FLAG_ACTIVITY_TOP_TASK
+등등
+
+재대로 배우지 않으면 안 건드는게 좋다.
