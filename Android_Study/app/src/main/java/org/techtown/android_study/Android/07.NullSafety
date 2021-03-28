@@ -29,4 +29,6 @@ if(number != null) {
 button?.setonClickListener
 button!!.setonClickListener
 
-
+Null 이 될수 있는 타입
+Int, Double, Float, Class -> Null이 될수 없는 타입
+Int?, Double?, Float?, Class? -> Null이 될수 잇는 타입

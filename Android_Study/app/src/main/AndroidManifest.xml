@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Study">
-        <activity android:name=".FragmentActivity"></activity>
+        <activity android:name=".NullSafety"></activity>
+        <activity android:name=".FragmentActivity" />
         <activity android:name=".OpenInternet">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Intent2" />
-        <activity android:name=".Intent1"></activity>
+        <activity android:name=".Intent1" />
         <activity android:name=".Calculator" />
         <activity android:name=".Listener" />
         <activity android:name=".MainActivity" />
