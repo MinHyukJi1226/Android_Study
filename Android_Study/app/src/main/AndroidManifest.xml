@@ -8,8 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Android_Study">
-        <activity android:name=".NullSafety"></activity>
+        android:theme="@style/MyTheme">
+        <activity android:name=".ThreadActivity"></activity>
+        <activity android:name=".Context" />
+        <activity android:name=".Resource" />
+        <activity android:name=".NullSafety" />
         <activity android:name=".FragmentActivity" />
         <activity android:name=".OpenInternet">
             <intent-filter>
