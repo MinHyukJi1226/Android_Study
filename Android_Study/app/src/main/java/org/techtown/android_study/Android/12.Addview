@@ -7,6 +7,7 @@
     Item을 담을 xml을 만들어준다.
     그 xml에 내용을 채워준다.
     Container view에 더해준다
-    
+    반복한다
+
 - ListView 예전에 많이 사용되었다.
 - Recyclerview 최근에 가장 많이 사용이 되고 잇고 가장 효율이 높다.
