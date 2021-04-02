@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MyTheme">
+        <activity android:name=".PhoneBookDetailActivity"></activity>
         <activity android:name=".PhoneBookActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,15 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddViewActivity">
-        </activity>
+        <activity android:name=".AddViewActivity"></activity>
         <activity android:name=".LibraryActivity" />
         <activity android:name=".ThreadActivity" />
         <activity android:name=".Context" />
         <activity android:name=".Resource" />
         <activity android:name=".NullSafety" />
         <activity android:name=".FragmentActivity" />
-        <activity android:name=".OpenInternet"></activity>
+        <activity android:name=".OpenInternet" />
         <activity android:name=".Intent2" />
         <activity android:name=".Intent1" />
         <activity android:name=".Calculator" />

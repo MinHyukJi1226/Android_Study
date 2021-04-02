@@ -16,10 +16,15 @@
         android:padding="4dp"
         android:textSize="40dp"/>
 
-    <LinearLayout
-        android:id="@+id/phoneBook_list_container"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"/>
+        android:fillViewport="true">
 
+        <LinearLayout
+            android:id="@+id/phoneBook_list_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+    </ScrollView>
 </LinearLayout>
