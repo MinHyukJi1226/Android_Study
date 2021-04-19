@@ -11,16 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MyTheme">
-        <activity android:name=".ListViewActivity">
+        <activity android:name=".SharePreferenceActivity"></activity>
+        <activity android:name=".TabPager2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TabPagerActivity"></activity>
+        <activity android:name=".PhoneBookWithRecyclerViewActivity" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ListViewActivity" />
         <activity android:name=".PhoneBookDetailActivity" />
-        <activity android:name=".PhoneBookActivity">
-        </activity>
+        <activity android:name=".PhoneBookActivity" />
         <activity android:name=".AddViewActivity" />
         <activity android:name=".LibraryActivity" />
         <activity android:name=".ThreadActivity" />
